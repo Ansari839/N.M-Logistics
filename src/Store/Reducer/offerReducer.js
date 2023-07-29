@@ -33,7 +33,7 @@ const INITIAL_STATE = {
 
 }
 
-const detailPageReducer = (state = INITIAL_STATE, action) => {
+const offerReducer = (state = INITIAL_STATE, action) => {
 
 
     switch(action.type){
@@ -44,6 +44,6 @@ const detailPageReducer = (state = INITIAL_STATE, action) => {
     }
 }
 export {
-    detailPageReducer,
+    offerReducer,
 
 }

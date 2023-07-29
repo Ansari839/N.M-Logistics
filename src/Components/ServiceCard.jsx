@@ -14,7 +14,7 @@ const ServiceCard = () => {
                             <img src={`/image/${items.Pic}`} alt={items.name} className="img-fluid" />
                             <div className="unit-1-text">
                                 <h3 className="unit-1-heading">{items.name} </h3>
-                                <p className="px-5">{items.des}</p>
+                                <p className="px-5">{items.desc}</p>
                             </div>
                         </Link>
                     </div>

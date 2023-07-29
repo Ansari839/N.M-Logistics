@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
     
@@ -20,27 +20,27 @@ const Navbar = () => {
                         <div className="row align-items-center">
 
                             <div className="col-11 col-xl-2">
-                                <h1 className="mb-0"><a href="index.html" className="text-white h2 mb-0">Logistics</a></h1>
+                                <h1 className="mb-0"><Link to="index.html" className="text-white h2 mb-0 Link">Logistics</Link></h1>
                             </div>
                             <div className="col-12 col-md-10 d-none d-xl-block">
                                 <nav className="site-navigation position-relative text-right" role="navigation">
 
                                     <ul className="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                                        <li className="active"><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
+                                        <li className="active"><Link to="index.html" className='Link'>Home</Link></li>
+                                        <li><Link to="about.html" className='Link'>About Us</Link></li>
                                         <li className="has-children">
-                                            <a href="services.html">Services</a>
+                                            <Link to="services.html" className='Link'>Services</Link>
                                             <ul className="dropdown">
-                                                <li><a href="#">Air Freight</a></li>
-                                                <li><a href="#">Ocean Freight</a></li>
-                                                <li><a href="#">Ground Shipping</a></li>
-                                                <li><a href="#">Warehousing</a></li>
-                                                <li><a href="#">Storage</a></li>
+                                                <li><Link to="#" className='Link'>Air Freight</Link></li>
+                                                <li><Link to="#" className='Link'>Ocean Freight</Link></li>
+                                                <li><Link to="#" className='Link'>Ground Shipping</Link></li>
+                                                <li><Link to="#" className='Link'>Warehousing</Link></li>
+                                                <li><Link to="#" className='Link'>Storage</Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="industries.html">Industries</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><Link to="industries.html" className='Link'>Industries</Link></li>
+                                        <li><Link to="blog.html" className='Link'>Blog</Link></li>
+                                        <li><Link to="contact.html" className='Link'>Contact</Link></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
                             <div className="d-inline-block d-xl-none ml-md-0 mr-auto py-3" 
                             // style="position: relative; top: 3px;"
                             style={{position: "relative; top: 3px;"}}
-                            ><a href="#" className="site-menu-toggle js-menu-toggle text-white"><span className="icon-menu h3"></span></a></div>
+                            ><Link to="#" className="site-menu-toggle js-menu-toggle text-white Link"><span className="icon-menu h3"></span></Link></div>
 
                         </div>
 

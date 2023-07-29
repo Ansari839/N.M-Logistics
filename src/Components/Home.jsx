@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './Header'
 import Offer from './Offer'
 import ServiceCard from './ServiceCard'
+import MoreOffer from './Moreoffer'
+import OurClients from './OurClients'
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
       <Header  />
       <Offer />
       <ServiceCard />
+      <MoreOffer />
+      <OurClients />
     </div>
   )
 }

@@ -2,35 +2,36 @@ import React from 'react'
 import './style.css';
 import { Link } from 'react-router-dom'
 
-const Offer = () => {
+const MoreOffer = () => {
   const offer = [
     {
-      heading: "Air Freight",
+      heading: "Warehousing",
       Detail: "orem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.",
       Link: '/',
-      icon: "text-primary flaticon-travel"
+      icon: "text-primary flaticon-barn"
     },
     {
-      heading: "Sea Freight",
+      heading: "Storage",
       Detail: "orem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.",
       Link: '/',
-      icon: "text-primary flaticon-sea-ship-with-containers"
+      icon: "text-primary flaticon-platform"
     },
     {
-      heading: "Ground Shipping",
+      heading: "Delivery Van",
       Detail: "orem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.",
       Link: '/',
-      icon: "text-primary flaticon-frontal-truck"
+      icon: "text-primary flaticon-car"
     },
 
   ]
+  console.log(offer)
   return (
     <div className="site-section offer-sec">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center border-primary">
-            <h2 class="font-weight-light text-primary">More Services</h2>
-            <p class="color-black-opacity-5">We Offer The Following Services</p>
+      <div className="container">
+        <div className="row justify-content-center mb-5">
+          <div className="col-md-7 text-center border-primary">
+            <h2 className="mb-0 text-primary">What We Offer</h2>
+            <p className="color-black-opacity-5">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
         <div className="row align-items-stretch">
@@ -41,7 +42,7 @@ const Offer = () => {
                 <div>
                   <h3>{item.heading}</h3>
                   <p>{item.Detail} </p>
-                  <p className="mb-0"><Link to={item.Link} className='Link'>Learn More</Link></p>
+                  <p className="mb-0"><Link to={item.Link}>Learn More</Link></p>
                 </div>
               </div>
             </div>
@@ -53,4 +54,4 @@ const Offer = () => {
   )
 }
 
-export default Offer
+export default MoreOffer
