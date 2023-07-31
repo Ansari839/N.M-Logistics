@@ -34,7 +34,6 @@ const About = () => {
         </div>
       </div>
     </div>
-    <Offer />
     <OurClients />
     </div>
   )
