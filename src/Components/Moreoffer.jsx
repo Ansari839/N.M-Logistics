@@ -26,11 +26,11 @@ const MoreOffer = () => {
   ]
   console.log(offer)
   return (
-    <div className="site-section offer-sec">
+    <div className="site-section">
       <div className="container">
         <div className="row justify-content-center mb-5">
           <div className="col-md-7 text-center border-primary">
-            <h2 className="mb-0 text-primary">What We Offer</h2>
+            <h2 className="mb-0 text-primary">We Offer More Services</h2>
             <p className="color-black-opacity-5">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>

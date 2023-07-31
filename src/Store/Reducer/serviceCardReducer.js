@@ -37,7 +37,7 @@ const detailPageReducer = (state = INITIAL_STATE, action) => {
 
 
     switch(action.type){
-        case "SERVICE_DETAI_PAGE": 
+        case "SERVICE_DETAIL_PAGE": 
         return {...state, card: state.cards.find(card => card.id === parseInt(action.id))}
         default: 
         return state;

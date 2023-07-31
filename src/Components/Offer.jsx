@@ -25,11 +25,11 @@ const Offer = () => {
 
   ]
   return (
-    <div className="site-section offer-sec">
+    <div className="site-section">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center border-primary">
-            <h2 class="font-weight-light text-primary">More Services</h2>
+            <h2 class="font-weight-light text-primary">What We Offer</h2>
             <p class="color-black-opacity-5">We Offer The Following Services</p>
           </div>
         </div>
