@@ -1937,16 +1937,21 @@ h5,
 
 .person h3 {
   font-size: 18px;
+  text-align: left;
 }
-
+.person p {
+  /* font-size: 18px; */
+  text-align: left;
+}
 .ul-social-circle {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 5px;
+  display: inline-block;
 }
 
 .ul-social-circle li {
-  display: inline-block;
+  text-align: left !important;
   margin-left: 5px;
   margin-bottom: 5px;
 }
@@ -1955,7 +1960,7 @@ h5,
   margin-left: 0;
 }
 
-.ul-social-circle li span {
+.ul-social-circle li > .Link > span {
   width: 30px;
   height: 30px;
   background: #777;
@@ -1963,7 +1968,7 @@ h5,
   text-align: center;
   line-height: 30px;
   border-radius: 50%;
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .ul-social-circle li .Link span {

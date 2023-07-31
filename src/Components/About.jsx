@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Offer from './Offer'
 import OurClients from './OurClients'
 import Img from './images/img_1.jpg'
+import Teams from './Teams'
 
 const About = () => {
   return (
@@ -30,10 +30,14 @@ const About = () => {
             </div>
             <p className='Text-Align'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti reprehenderit animi est eaque corporis! Nisi, asperiores nam amet doloribus, soluta ut reiciendis. Consequatur modi rem, vero eos ipsam voluptas.</p>
             <p className="mb-5 Text-Align">Error minus sint nobis dolor laborum architecto, quaerat. Voluptatum porro expedita labore esse velit veniam laborum quo obcaecati similique iusto delectus quasi!</p>
+            <p className='Text-Align'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti reprehenderit animi est eaque corporis! Nisi, asperiores nam amet doloribus, soluta ut reiciendis. Consequatur modi rem, vero eos ipsam voluptas.</p>
+            <p className="mb-5 Text-Align">Error minus sint nobis dolor laborum architecto, quaerat. Voluptatum porro expedita labore esse velit veniam laborum quo obcaecati similique iusto delectus quasi!</p>
+
           </div>
         </div>
       </div>
     </div>
+    <Teams />
     <OurClients />
     </div>
   )
