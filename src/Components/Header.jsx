@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container ovly">
         <div className="row align-items-center no-gutters align-items-stretch overlap-section boxes">
           <div className="col-md-4 boxes">
-            <div className="feature-1 pricing h-100 text-center">
+            <div className="feature-1 pricing h-100 text-center box">
               <div className="icon">
                 <span className="icon-dollar"></span>
               </div>
@@ -32,11 +32,11 @@ const Header = () => {
             <div className="free-quote bg-dark h-100">
               <h2 className="my-4 heading  text-center">Get Free Quote</h2>
               <form method="post">
-                <div className="form-group">
+                <div className="form-group Text-Align">
                   <label for="fq_name">Name</label>
                   <input type="text" className="form-control btn-block" id="fq_name" name="fq_name" placeholder="Enter Name" />
                 </div>
-                <div className="form-group mb-4">
+                <div className="form-group mb-4 Text-Align">
                   <label for="fq_email">Email</label>
                   <input type="text" className="form-control btn-block" id="fq_email" name="fq_email" placeholder="Enter Email" />
                 </div>
@@ -47,7 +47,7 @@ const Header = () => {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="feature-3 pricing h-100 text-center">
+            <div className="feature-3 pricing h-100 text-center box">
               <div className="icon">
                 <span className="icon-phone"></span>
               </div>

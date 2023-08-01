@@ -51,39 +51,9 @@ const Teams = () => {
                                         </li>
                                     </ul>
                                 ))}
-
                             </div>
                         </div>
                     ))}
-
-                    {/* <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
-            <div className="person">
-              <img src="images/person_3.jpg" alt="Image" className="img-fluid rounded mb-5" />
-              <h3>Brandon Sharp</h3>
-              <p className="position text-muted">Co-Founder, COO</p>
-              <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-              <ul className="ul-social-circle">
-                <li><a href="#"><span className="icon-facebook"></span></a></li>
-                <li><a href="#"><span className="icon-twitter"></span></a></li>
-                <li><a href="#"><span className="icon-linkedin"></span></a></li>
-                <li><a href="#"><span className="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div> */}
-                    {/* <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
-            <div className="person">
-              <img src="images/person_4.jpg" alt="Image" className="img-fluid rounded mb-5" />
-              <h3>Connor Hodson</h3>
-              <p className="position text-muted">Marketing</p>
-              <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-              <ul className="ul-social-circle">
-                <li><a href="#"><span className="icon-facebook"></span></a></li>
-                <li><a href="#"><span className="icon-twitter"></span></a></li>
-                <li><a href="#"><span className="icon-linkedin"></span></a></li>
-                <li><a href="#"><span className="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div> */}
                 </div>
             </div>
         </div>

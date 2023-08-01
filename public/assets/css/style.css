@@ -133,6 +133,7 @@ h5,
 .form-control {
   height: 43px;
   border-radius: 0;
+  text-align: left;
 }
 
 .form-control:active,
