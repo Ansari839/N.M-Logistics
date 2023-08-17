@@ -8,19 +8,19 @@ const MoreOffer = () => {
       heading: "Warehousing",
       Detail: "orem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.",
       Link: '/',
-      icon: "text-primary flaticon-barn"
+      icon: "text-color flaticon-barn"
     },
     {
       heading: "Storage",
       Detail: "orem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.",
       Link: '/',
-      icon: "text-primary flaticon-platform"
+      icon: "text-color flaticon-platform"
     },
     {
       heading: "Delivery Van",
       Detail: "orem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.",
       Link: '/',
-      icon: "text-primary flaticon-car"
+      icon: "text-color flaticon-car"
     },
 
   ]
@@ -30,7 +30,7 @@ const MoreOffer = () => {
       <div className="container">
         <div className="row justify-content-center mb-5">
           <div className="col-md-7 text-center border-primary">
-            <h2 className="mb-0 text-primary">We Offer More Services</h2>
+            <h2 className="mb-0 text-color">We Offer More Services</h2>
             <p className="color-black-opacity-5">Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
@@ -40,9 +40,9 @@ const MoreOffer = () => {
               <div className="unit-4 d-flex">
                 <div className="unit-4-icon mr-4"><span className={item.icon}></span></div>
                 <div>
-                  <h3>{item.heading}</h3>
-                  <p>{item.Detail} </p>
-                  <p className="mb-0"><Link to={item.Link}>Learn More</Link></p>
+                  <h3 className='Text-Align'>{item.heading}</h3>
+                  <p className='Text-Align'>{item.Detail} </p>
+                  <p className="mb-0 Text-Align"><Link to={item.Link} className='Link text-color'>Learn More</Link></p>
                 </div>
               </div>
             </div>

@@ -11,7 +11,7 @@ const Header = () => {
           <div className="row align-items-center justify-content-center text-center">
             <div className="col-md-8" data-aos="fade-up" data-aos-delay="400">
               <h1 className="text-white font-weight-light mb-5 text-uppercase font-weight-bold">Worldwide Freight Services</h1>
-              <p><Link to='/' className="btn btn-primary py-3 px-5 text-white">Get Started!</Link></p>
+              <p><Link to='/' className="btn box py-3 px-5 text-white">Get Started!</Link></p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ const Header = () => {
                   <input type="text" className="form-control btn-block" id="fq_email" name="fq_email" placeholder="Enter Email" />
                 </div>
                 <div className="form-group">
-                  <input type="submit" className="btn btn-primary text-white py-2 px-4 btn-block" value="Get Quote" />
+                  <input type="submit" className="btn btn-primary box text-white py-2 px-4 btn-block" value="Get Quote" />
                 </div>
               </form>
             </div>

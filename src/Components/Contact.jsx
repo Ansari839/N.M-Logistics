@@ -61,7 +61,7 @@ const Contact = () => {
 
             <div className="row form-group">
               <div className="col-md-12 Text-Align">
-                <input type="submit" value="Send Message" className="btn btn-primary py-2 px-4 text-white" />
+                <input type="submit" value="Send Message" className="btn btn-primary box py-2 px-4 text-white" />
               </div>
             </div>
 
@@ -72,20 +72,20 @@ const Contact = () => {
           
           <div className="p-4 mb-3 bg-white">
             <p className="mb-0 font-weight-bold Text-Align">Address</p>
-            <p className="mb-4 Text-Align">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            <p className="mb-4 Text-Align text-color">203 Fake St. Mountain View, San Francisco, California, USA</p>
 
             <p className="mb-0 font-weight-bold Text-Align">Phone</p>
-            <p className="mb-4 Text-Align"><Link className='Link' to="#">+1 232 3235 324</Link></p>
+            <p className="mb-4 Text-Align"><Link className='Link text-color' to="#">+1 232 3235 324</Link></p>
 
-            <p className="mb-0 font-weight-bold Text-Align">Email Address</p>
-            <p className="mb-0 Text-Align"><Link className='Link' to="#">youremail@domain.com</Link></p>
+            <p className="mb-0 font-weight-bold Text-Align text">Email Address</p>
+            <p className="mb-0 Text-Align"><Link className='Link text-color' to="#">youremail@domain.com</Link></p>
 
           </div>
           
           <div className="p-4 mb-3 bg-white">
             <h3 className="h5 text-black mb-3 Text-Align">More Info</h3>
             <p className='Text-Align'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ad iure porro mollitia architecto hic consequuntur. Distinctio nisi perferendis dolore, ipsa consectetur? Fugiat quaerat eos qui, libero neque sed nulla.</p>
-            <p><Link  to="#" className="btn btn-primary px-4 py-2 text-white Link Text-Align">Learn More</Link></p>
+            <p><Link  to="#" className="btn btn-primary px-4 py-2 text-white Link Text-Align box">Learn More</Link></p>
           </div>
 
         </div>

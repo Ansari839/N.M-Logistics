@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div className="col-md-6 order-md-1" data-aos="fade">
             <div className="text-left pb-1 border-primary mb-4">
-              <h2 className="text-primary Text-Align">Our History</h2>
+              <h2 className="text-color Text-Align">Our History</h2>
             </div>
             <p className='Text-Align'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti reprehenderit animi est eaque corporis! Nisi, asperiores nam amet doloribus, soluta ut reiciendis. Consequatur modi rem, vero eos ipsam voluptas.</p>
             <p className="mb-5 Text-Align">Error minus sint nobis dolor laborum architecto, quaerat. Voluptatum porro expedita labore esse velit veniam laborum quo obcaecati similique iusto delectus quasi!</p>

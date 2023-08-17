@@ -31,7 +31,7 @@ const Teams = () => {
             <div className="container">
                 <div className="row justify-content-center mb-5">
                     <div className="col-md-7 text-center border-primary">
-                        <h2 className="font-weight-light text-primary" data-aos="fade">Our Team</h2>
+                        <h2 className="font-weight-light text-color" data-aos="fade">Our Team</h2>
                     </div>
                 </div>
                 <div className="row">
@@ -43,9 +43,9 @@ const Teams = () => {
                                 <p className="position text-muted">{item.Role} </p>
                                 <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
                                 {item.Social.map((item, ind) => (
-                                    <ul className="ul-social-circle">
-                                        <li key={ind}>
-                                            <Link to={item.Link} className='Link'>
+                                    <ul className="ul-social-circle Text-Align">
+                                        <li key={ind} className='Text-Align'>
+                                            <Link to={item.Link} className='Link Text-Align'>
                                                 <span className={item.icon}></span>
                                             </Link>
                                         </li>

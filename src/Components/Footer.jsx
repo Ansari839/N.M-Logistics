@@ -57,7 +57,7 @@ const Footer = () => {
                 <div className="input-group mb-3">
                   <input type="text" className="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2" />
                   <div className="input-group-append">
-                    <button className="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+                    <button className="btn btn-primary box text-white" type="button" id="button-addon2">Send</button>
                   </div>
                 </div>
               </form>

@@ -27,7 +27,7 @@ const OurClients = () => {
             <div className="container">
                 <div className="row justify-content-center mb-5">
                     <div className="col-md-7 text-center border-primary">
-                        <h2 className="font-weight-light text-primary">Clients Testimonals</h2>
+                        <h2 className="font-weight-light text-color">Clients Testimonals</h2>
                     </div>
                 </div>
                 <div className="slide-one-item home-slider owl-carousel">

@@ -3,13 +3,13 @@ const INITIAL_STATE = {
         {
             id: 1,
             name: 'By Air',
-            Pic : '1.jpg',
+            Pic : '2.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit Perferendis quis molestiae vitae eligendi at.",          
         },
         {
             id: 2,
             name: 'By Ship',
-            Pic : '2.jpg',
+            Pic : '4.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.",           
         },
         {
@@ -21,7 +21,7 @@ const INITIAL_STATE = {
         {
             id: 4,
             name: 'Ware Housing',
-            Pic : '4.jpg',
+            Pic : '1.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit Perferendis quis molestiae vitae eligendi at.",
            
         },

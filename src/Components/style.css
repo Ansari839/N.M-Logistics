@@ -11,13 +11,21 @@
     .boxes {
     padding: 0 5% 0 5% ; } }
 .box {
-    background-color: #0d6efd !important;
+    background-color: #f89d13 !important;
+}
+.text-color {
+    color: #f89d13 !important;
 }
 .offer-sec {
     position: relative;
     top: -70px;
 }
-
+.Link {
+    text-decoration: none !important;
+}
 .Text-Align {
     text-align: left !important;
+}
+.Text-Justify{
+    text-align: justify;
 }
